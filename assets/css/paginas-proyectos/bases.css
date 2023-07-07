@@ -1,0 +1,54 @@
+:root{
+    /*--variable: valor;*/
+    --background-page: radial-gradient(at top left, #2d2b4a, #453e79);
+    --background-page-dark: #2d2b4a67;
+    --background-form-dark: #1d1b3067;
+    --background-form-darker:#13102a67;
+    --background-boxes: #453e79;
+    --background-footer: #29244965;
+
+    --fuente-enlace: #e0bbff;
+    --fuente-color: #fbfbfb;
+    --fuente-brillante: #ffffff;
+
+    --raleway: "Raleway", sans-serif;
+
+    --fuente-tamaño-pequeño: 16px;
+    --fuente-tamaño-regular: 22px;
+    --fuente-tamaño-grande: 32px;
+    --fuente-tamaño-enorme: 52px;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{  
+    background-image: var(--background-page);
+    font-family: var(--raleway);
+    color: var(--fuente-color);
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+header{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+main , footer{
+    padding-right: 8%;
+    padding-left: 6.5%;
+    padding-top: 3%;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}

@@ -1,0 +1,4 @@
+.habilidades__lista, .programas__lista{
+    display: flex;
+    flex-wrap: wrap;
+}

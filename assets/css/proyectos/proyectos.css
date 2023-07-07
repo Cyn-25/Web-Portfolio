@@ -1,0 +1,9 @@
+.proyectos{
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 480px) {
+    .proyectos__titulo{
+        padding-top: 0;
+    }
+}

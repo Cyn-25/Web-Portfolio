@@ -1,0 +1,12 @@
+.experiencia__img{
+    width: 14%;
+    height: 14%;
+    background-color: var(--background-boxes);
+    box-shadow: 0 0 14px #0e0a1b;
+}
+
+@media screen and (max-width: 480px) {
+    .experiencia__img{
+        display: none;
+    }
+}

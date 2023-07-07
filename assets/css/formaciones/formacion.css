@@ -1,0 +1,25 @@
+.formacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 26%;
+    justify-content: space-around;
+    margin: 5% 35px 0;
+}
+
+.formaciones{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .formacion{
+        margin: 5% 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formacion{
+        margin: 5% 0px;
+        inline-size: fit-content;
+        width: 100%;
+    }
+}

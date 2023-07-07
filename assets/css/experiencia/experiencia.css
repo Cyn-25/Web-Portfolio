@@ -1,0 +1,35 @@
+.experiencia{
+    margin-top: 5%;
+}
+
+.experiencia__contenido{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+
+}
+
+
+.experiencia__titulo{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .experiencia-contenido{
+        margin: 5% 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experiencia__titulo{
+        font-size: 22px;
+    }
+    .experiencia__contenido{
+        margin: 5% 0px;
+        padding: 2%;
+        box-shadow: 0 0 14px #0e0a1b;
+    }
+}

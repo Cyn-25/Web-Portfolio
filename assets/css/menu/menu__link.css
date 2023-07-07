@@ -1,0 +1,43 @@
+.menu__link {
+    color: var(--fuente-general);
+    margin-right: 32px;
+    text-decoration: none;
+    font-family: var(--raleway);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.menu__link:hover {
+    color: var(--fuente-brillante);
+    transition: 0.4s all ease;
+    text-decoration: underline;
+    text-shadow: 0 0 5px hsl(253, 100%, 62%) , 0 0 25px hsl(253, 100%, 62%);
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 480px) {
+    .menu__link {
+        font-size: 11px;
+        width: 100%;
+        display: block;
+    }
+    
+    .menu__link:hover {
+        color: var(--fuente-general);
+        transition: none;
+        text-decoration: none;
+        text-shadow: none;
+        animation: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu__link:hover {
+        color: var(--fuente-general);
+        transition: none;
+        text-decoration: none;
+        text-shadow: none;
+        animation: none;
+    }
+  }

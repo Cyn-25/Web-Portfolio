@@ -1,0 +1,74 @@
+footer{
+    background-color: var(--background-footer);
+    margin-top: 5%;
+    margin-bottom: -1.6%;
+}
+
+.rodapie{
+    margin-top: -2%;
+}
+
+.rodapie p{
+    margin-top: 2%;
+    color: #ecebeb;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.rodapie__redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+#linkedin:hover, #artstation:hover, #github:hover, #behance:hover{
+    margin: 0.1%;
+    width: 61px;
+    padding: .1%;
+    box-shadow: 2px 2px 5px rgba(123, 75, 201, 0.5);
+}
+
+.rodapie__redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(94, 68, 134, 0.5);
+    transition: all .4s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .rodapie__redes{
+        padding-top: 0;
+    }
+
+    .rodapie__redes a{
+        font-size: 32px;
+    }
+    
+    .rodapie p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .rodapie__redes a{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        padding-bottom: 3%;
+    }
+
+    .rodapie p{
+        font-size: 14px;
+    }
+}

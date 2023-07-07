@@ -1,0 +1,23 @@
+.sobre--mi__descripcion {
+  color: var(--fuente-general);
+  font-size: 16px;
+  font-family: var(--raleway);
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+  .sobre--mi__descripcion{
+    font-size: 14px;
+  }
+}
+ 
+@media screen and (max-width: 480px) {
+  .boton--cv{
+      margin-top: 1%;
+      font-size: 14px;
+  }
+}

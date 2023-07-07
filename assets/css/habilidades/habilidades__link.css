@@ -1,0 +1,28 @@
+.programas__link, .habilidades__link{
+    color: var(--fuente-color);
+    text-decoration: none;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.4s all ease;
+    cursor: auto;
+}
+
+.programas__link:hover, .habilidades__link:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .programas__link, .habilidades__link{
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .programas__link, .habilidades__link{
+        font-size: 10px;
+        font-weight: 500;
+    }
+}

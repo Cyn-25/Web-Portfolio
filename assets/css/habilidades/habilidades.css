@@ -1,0 +1,9 @@
+.habilidades{
+    font-family: var(--raleway);
+    margin-top: 3%;
+}
+
+.habilidades a:hover{
+    color: var(--fuente-brillante);
+
+}

@@ -1,0 +1,33 @@
+.animacion-3d__proyecto{
+    margin-top: 3%;
+    background: #19113d90;
+    padding: 2%;
+}
+
+.animacion-3d__proyecto:hover{
+    box-shadow: 0 0 5px hsl(253, 100%, 62%) , 0 0 25px hsl(253, 100%, 62%);
+    padding: 2.5%;
+    background: #170e3bda;
+}
+
+@media screen and (max-width: 1024px) {
+    .animacion-3d__proyecto{
+        margin-top: 2.5%;
+    }
+    .animacion-3d__proyecto:hover{
+        box-shadow: none;
+        padding: 2%;
+        background: #19113d90;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .animacion-3d__proyecto{
+        margin-top: 5%;
+    }
+    .animacion-3d__proyecto:hover{
+        box-shadow: none;
+        padding: 2%;
+        background: #19113d90;
+    }
+}

@@ -1,0 +1,37 @@
+.mensaje--principal__titulo{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--raleway);
+}
+
+#palabras--color{
+    color: var(--fuente-color);
+    transition: 0.4s all ease;
+    text-shadow: 0 0 7px rgb(134, 112, 255), 0 0 15px rgb(149, 130, 255);
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+#palabras--color:hover{
+    font-size: 54px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .mensaje--principal__titulo{
+        font-size: 22px;
+    }
+
+    #palabras--color:hover{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-device-width:480px) {
+    .mensaje--principal__titulo{
+        font-size: 22px;
+    }
+
+    #palabras--color:hover{
+        font-size: 22px;
+    }
+}

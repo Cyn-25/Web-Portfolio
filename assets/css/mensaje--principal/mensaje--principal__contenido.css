@@ -1,0 +1,13 @@
+.mensaje--principal__contenido{
+    width: 100%;
+    padding-right: 4%;
+}
+
+@media screen and (max-width: 480px) {
+    .mensaje--principal__contenido{
+        text-align: center;
+    }
+}
+
+
+

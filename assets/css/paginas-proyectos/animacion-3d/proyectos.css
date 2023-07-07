@@ -1,0 +1,22 @@
+.animacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .animacion{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .animacion{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,23 @@
+.habilidad__img{
+    width: 20%;
+    height: 39%;
+    margin: 3% 3%;
+    display: block;
+}
+
+
+@media screen and (max-width: 480px) {
+    .habilidad__img{
+        width: 11%;
+        height: 39%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .habilidad__img{
+        width: 16%;
+    }
+}

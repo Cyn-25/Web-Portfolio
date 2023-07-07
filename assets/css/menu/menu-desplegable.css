@@ -1,0 +1,27 @@
+.menu-desplegable {
+    position: absolute;
+	display: none;
+	list-style: none;
+	width: 100px;
+	background-color: rgba(16, 8, 32, 0.5);
+  }
+
+  .menu-desplegable a{
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  
+ .menu__lista li:hover .menu-desplegable {
+    display: block;
+  }
+  
+  .menu-desplegable li:hover a {
+    color: var(--fuente-color);
+    text-decoration: none;
+    display: block;
+    text-shadow: 0 0 5px hsl(253, 100%, 62%) , 0 0 25px hsl(253, 100%, 62%);
+  }
+  
+  .menu-desplegable a:hover {
+    background-color: #120c21;
+  }

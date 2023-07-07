@@ -1,0 +1,13 @@
+.proyectos__contenido{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+
+@media screen and (max-width: 480px) {
+    .proyectos__contenido{
+        flex-wrap: wrap;
+        padding: 0 9%;
+        justify-content: space-around;    
+    }
+}

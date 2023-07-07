@@ -1,0 +1,19 @@
+.formacion__nombre{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .formacion__nombre{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formacion__nombre{
+        font-size: 16px; 
+    }
+}

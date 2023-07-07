@@ -1,0 +1,31 @@
+.sobre--mi{
+    margin-top: 10%;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background: var(--background-page-dark);
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 0 0 5px #692efd, 0 0 25px #692efd, 0 0 40px #692efd;
+}
+
+@media screen and (max-width: 1024px) {
+    .sobre--mi{
+      width: 100%;
+    }
+  }
+   
+  @media screen and (max-width: 1023px) {
+    .sobre--mi{
+        width: 100%;
+      }
+      .sobre--mi__profile-area{
+        width: 38%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 16px;
+      }
+  }

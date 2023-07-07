@@ -1,0 +1,88 @@
+:root{
+    /*--variable: valor;*/
+    --background-page: radial-gradient(at top left, #2d2b4a, #453e79);
+    --background-page-dark: #2d2b4a67;
+    --background-form-dark: #1d1b3067;
+    --background-form-darker:#13102a67;
+    --background-boxes: #453e79;
+    --background-footer: #261b48c5;
+    --background-header: #231b46;
+
+    --fuente-enlace: #e0bbff;
+    --fuente-color: #fbfbfb;
+    --fuente-brillante: #ffffff;
+
+    --raleway: "Raleway", sans-serif;
+
+    --fuente-tamaño-pequeño: 16px;
+    --fuente-tamaño-regular: 22px;
+    --fuente-tamaño-grande: 32px;
+    --fuente-tamaño-enorme: 52px;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{   
+    font-family: var(--raleway);
+    color: var(--fuente-color);
+    font-size: 16px;
+    background-color: #220b63;
+    opacity: 0.8;
+    background-image: radial-gradient(#5358bc97 0.5px, #453e7979 0.5px);
+    background-size: 10px 10px;
+
+}
+
+main , footer{
+    padding-right: 8%;
+    padding-left: 6.5%;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1023px) {
+    main{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    header, .mensaje--principal, .pasatiempos-y-habilidades, .formaciones, .proyectos, .contacto{
+        padding-right: 8%;
+        padding-left: 6.5%;
+        padding-top: 3%;
+    }
+  }
+   
+@media screen and (max-width: 1023px) {
+    main{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    header, .mensaje--principal, .pasatiempos-y-habilidades, .formaciones, .proyectos, .contacto{
+        padding-right: 8%;
+        padding-left: 6.5%;
+        padding-top: 3%;
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    header, .mensaje--principal, .pasatiempos-y-habilidades, .formaciones, .proyectos, .contacto{
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+}
+

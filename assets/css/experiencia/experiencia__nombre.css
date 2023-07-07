@@ -1,0 +1,16 @@
+.experiencia__nombre{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    .experiencia__nombre{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experiencia__nombre{
+        font-size: 16px; 
+    }
+}

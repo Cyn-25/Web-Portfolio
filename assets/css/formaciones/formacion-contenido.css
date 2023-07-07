@@ -1,0 +1,14 @@
+.formaciones__contenido{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .formaciones__contenido{
+        display: table;
+        margin-bottom: -3%;
+    }
+}
+

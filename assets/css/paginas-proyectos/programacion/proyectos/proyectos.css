@@ -1,0 +1,29 @@
+.proyecto-encriptador , .proyecto-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proyecto-encriptador , .proyecto-portafolio{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.proyecto-encriptador:hover , .proyecto-portafolio:hover{
+    width: 105%;
+    height: 105%;
+}
+
+@media screen and (max-width: 1024px) {
+    .proyecto-encriptador:hover, .proyecto-portafolio:hover{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proyecto-encriptador:hover, .proyecto-portafolio:hover{
+        height: 100%;
+        width: 100%;
+    }
+}
+

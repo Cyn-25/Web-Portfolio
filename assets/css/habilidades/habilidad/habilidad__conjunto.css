@@ -1,0 +1,22 @@
+.habilidad__conjunto{
+    background-color: var(--background-boxes);
+    box-shadow: 0 0 14px #0e0a1b;
+    text-align: center;
+    width: 23%;
+    height: 39%;
+    margin: 1%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .habilidad__conjunto{
+        width: 31%;
+        height: 39%;
+        margin: 1%;
+    }
+}
+
+    
+    

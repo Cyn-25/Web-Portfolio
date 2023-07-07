@@ -1,0 +1,19 @@
+.proyecto-portafolio__titulo{
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 3%;
+    justify-content: center;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    .proyecto-portafolio__titulo{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proyecto-portafolio__titulo{
+        font-size: 22px;
+    }
+}

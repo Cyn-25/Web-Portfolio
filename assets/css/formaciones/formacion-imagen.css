@@ -1,0 +1,50 @@
+.formacion__imagen{
+    height: 180px;
+    width: 250px;
+    background: #1d193b;
+    margin: 0 auto;
+    box-shadow: 0 0 5px hsl(253, 100%, 62%) , 0 0 25px hsl(253, 100%, 62%); 
+}
+
+.formacion__imagen--cambridge{
+    background-image: url(../../img/formaciones/cambridge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:65%;
+    
+}
+
+.formacion__imagen--upmh{
+    background-image: url(../../img/formaciones/upmh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:85%;
+    
+}
+
+.formacion__imagen--alura{
+    background-image: url(../../img/formaciones/alura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .formacion__imagen{
+        width: 192px;
+        height: 96px;
+        margin-left: 5%;
+        background-size: 54%;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formacion__imagen{
+        height: 157px;
+        background-size: 40%;
+        width: 86%;  
+    }
+}

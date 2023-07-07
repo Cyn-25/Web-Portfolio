@@ -1,0 +1,19 @@
+.proyecto-portafolio__img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 5px #692efd, 0 0 25px #692efd, 0 0 50px #692efd;
+}
+
+@media screen and (max-width: 1024px) {
+    .proyecto-portafolio__img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proyecto-portafolio__img{
+        height: 100%;
+        width: 100%;
+    }
+}

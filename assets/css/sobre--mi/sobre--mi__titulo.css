@@ -1,0 +1,18 @@
+.sobre--mi__titulo{
+    color: var(--fuente-general);
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+    .sobre--mi__titulo{
+        font-size: 22px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .sobre--mi__titulo{
+        font-size: 22px;
+    }
+}

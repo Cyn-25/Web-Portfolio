@@ -1,0 +1,36 @@
+.encabezado { /*opciones en misma línea con esta configuración*/
+    display: flex; /*Establece un contexto de diseño flexible en el que los elementos hijos pueden ajustarse automáticamente según las reglas establecidas. */
+    align-items: center;/*Los elementos queden justo en medio*/
+    justify-content: space-between;/* Los elementos se colocan al principio y al final del contenedor, y el espacio restante se divide de manera equitativa entre ellos.*/
+    
+}
+
+.menu-nav{
+    display: flex; 
+}
+ 
+.programas__lista, .habilidades__lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.habilidades__item , .programas__item , .pasatiempos__ite{
+    display: flex;
+    margin-left: 0%;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 480px) {
+    .habilidades__item, .programas__item{
+    margin-left: 0%;
+    }
+
+    .menu-nav{  
+        font-size: 11px;
+        width: 100%;
+    }
+}
+
+
+

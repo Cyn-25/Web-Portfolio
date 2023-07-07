@@ -1,0 +1,19 @@
+.proyecto-encriptador__detalles{
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .proyecto-encriptador__detalles{
+        padding: 22px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proyecto-encriptador__detalles{
+        padding: 15px 0;
+    }
+}
