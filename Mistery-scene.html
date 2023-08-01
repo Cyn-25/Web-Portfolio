@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./assets/css/flexbox.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado.css" />
+        <link rel="stylesheet" href="./assets/css/encabezado/flags.css" />
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado__nombre.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal__titulo.css" />
@@ -37,38 +38,44 @@
     </head>
     <body>
         <header class="encabezado">
-            <h2 class="encabezado__nombre">&#10053;Cynthia Hernández</h2>
-                <nav class="menu-nav">
-                    <ul class="menu__lista">
-                        <li class="menu__item" ><a href="./index.html" class="menu__link activo">About me</a></li>
-                        <li class="menu__item" ><a href="./animacion-3d.html" class="menu__link">3D Animation</a></li>
-                          
-                    </ul>
-                </nav>
+            <nav class="menu-nav">
+                <ul class="menu__lista">
+                    <li class="menu__item" ><a href="./index.html" class="menu__link activo" data-section="encabezado" data-value="about-me">About me</a></li>
+                    <li class="menu__item" ><a href="./animacion-3d.html" class="menu__link" data-section="encabezado" data-value="3d-animation">3D Animation</a></li>      
+                </ul>
+            </nav>
+
+            <div class="flags" id="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/img/spanish.svg" alt="">
+                </div>
+
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/img/english.svg" alt="">
+                </div>
             </div>     
         </header>
 
         <main>
             <section class="proyecto-individual">
                 <div class="animacion-individual">
-                    <h2 class="animacion-individual__titulo">Mistery Scene</h2>
+                    <h2 class="animacion-individual__titulo" data-section="animation-proyect" data-value="animation-proyect-title-mistery">Mistery Scene</h2>
                     <div class="video">
                         <video src="./assets/img/portafolio/animacion/Scooby-Doo-scene.mp4" controls alt="animation video of wizard and Aang" class="animacion-individual__video"></video>
                     </div>  
-                    <div class="animacion-individual__detalles">
-                        
-                        <h4 class="subtitulo">Details</h4>
-                        <div class="linea"></div>
-                        <p class="animacion-individual__texto">
-                            Animation of a woman, a cowboy and a dog searching on the woods for a mistery. 
-                            <br><br>
 
-                            <ul class="lista-detalles">
-                                <li class="animation-link">Models and scenario are not mine</li>
-                                <li class="animation-link">Audio from live action movie Scooby Doo: Spooky Island.</li>
-                                <li class="animation-link">Developed on Maya Autodesk</li>
-                            </ul>  
-                        </p> 
+                    <div class="animacion-individual__detalles">
+                        <h4 class="subtitulo" data-section="animation-proyect" data-value="animation-proyect-details">Details</h4>
+                        <div class="linea"></div>
+                        <p class="animacion-individual__texto" data-section="animation-proyect" data-value="animation-proyect-text-mistery">
+                            Animation of a woman, a cowboy and a dog searching on the woods for a mistery. 
+                            <br><br><br>
+                        </p>
+                        <ul class="lista-detalles">
+                            <li class="animation-link" data-section="animation-proyect" data-value="animation-proyect-mistery-link1">Models and scenario are not mine</li>
+                            <li class="animation-link" data-section="animation-proyect" data-value="animation-proyect-mistery-link2">Audio from live action movie Scooby Doo: Spooky Island.</li>
+                            <li class="animation-link" data-section="animation-proyect" data-value="animation-proyect-mistery-link3">Developed on Maya Autodesk</li>
+                        </ul>  
                     </div>      
                 </div>
             </section>
@@ -82,9 +89,9 @@
                     <a href="https://cynthia_hr.artstation.com/" target="_blank" class="fa-brands fa-artstation" id="artstation"></a>
                     <a href="https://www.behance.net/cynthiahr25" target="_blank" class="fa-brands fa-square-behance" id="behance"></a>
                 </div>
-                <p class="rodapie__informacion">2023 Developed by Cynthia Hernández</p>
+                <p class="rodapie__informacion" data-section="footer" data-value="footer_text">2023 Developed by Cynthia Hernández</p>
             </section>
         </footer>
+        <script src="js/script.js"></script>
     </body>
-</body>
 </html>

@@ -1,0 +1,20 @@
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.flags__item{
+    width: 44%;
+}
+
+.flags__item:hover{
+    width: 48%;
+    box-shadow: 0 0 5px #692efd, 0 0 25px #692efd, 0 0 50px #692efd;
+}
+
+.flags__img{
+    display: block;
+}

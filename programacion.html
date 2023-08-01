@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado.css" />
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado__nombre.css" />
+        <link rel="stylesheet" href="./assets/css/encabezado/flags.css" />
         <link rel="stylesheet" href="./assets/css/menu/menu__lista.css" />
         <link rel="stylesheet" href="./assets/css/menu/menu__item.css" />
         <link rel="stylesheet" href="./assets/css/menu/menu__link.css" />
@@ -36,31 +37,37 @@
         
     </head>
     <body>
-        <header class="encabezado">
-            <h2 class="encabezado__nombre">&#10053;Cynthia Hernández</h2>
-                <nav class="menu-nav">
-                    <ul class="menu__lista">
-                        <li class="menu__item" ><a href="./index.html" class="menu__link activo">About me</a></li>
-                        <li class="menu__item" ><a href="./3d-modelado.html" class="menu__link">3D Modeling</a></li>
-                        <li class="menu__item" ><a href="./animacion-3d.html" class="menu__link">3D Animation</a></li>
-                        <li class="menu__item" ><a href="./ilustracion.html" class="menu__link">Illustration</a></li>  
-                    </ul>
-                </nav>
-            </div>     
+        <header class="encabezado">       
+            <nav class="menu-nav">
+                <ul class="menu__lista">
+                    <li class="menu__item" ><a href="./index.html" class="menu__link activo" data-section="encabezado" data-value="about-me">About me</a></li>
+                    <li class="menu__item" ><a href="./animacion-3d.html" class="menu__link" data-section="encabezado" data-value="3d-animation">3D Animation</a></li>
+                    <li class="menu__item" ><a href="./3d-modelado.html" class="menu__link" data-section="encabezado" data-value="3d-modeling">3D Modeling</a></li>  
+                    <li class="menu__item" ><a href="./ilustracion.html" class="menu__link" data-section="encabezado" data-value="illustration">Illustration</a></li>  
+                </ul>
+            </nav>
+        <div class="flags" id="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./assets/img/spanish.svg" alt="">
+            </div>
+
+            <div class="flags__item" data-language="en">
+                <img src="./assets/img/english.svg" alt="">
+            </div>    
         </header>
 
         <main>
             <section class="proyectos">
                 <div class="proyectos__titulo">
-                    <h1>Programming</h1>
+                    <h1 data-section="proyects" data-value="programming-title">Programming</h1>
                 </div>
                 <div class="proyecto-encriptador">
                     <img src="./assets/img/portafolio/encriptador.png" alt="" class="proyecto-portafolio__img">
                     <div class="proyecto-encriptador__detalles">
-                        <h2 class="proyecto-portafolio__titulo">Text Encrypt</h2>
-                        <p class="proyecto-portafolio__texto">Challenge Oracle + Alura Latam for coding texts</p>
+                        <h2 class="proyecto-portafolio__titulo" data-section="proyect" data-value="proyect-title-text">Text Encrypt</h2>
+                        <p class="proyecto-portafolio__texto" data-section="proyect" data-value="proyect-text">Challenge Oracle + Alura Latam for coding texts</p>
                         <div class="botones">
-                            <a href="https://github.com/Cyn-25/Challenge-ONE-Encriptador-de-Texto" target="_blank"><button class="boton__repositorio">Repository</button></a>
+                            <a href="https://github.com/Cyn-25/Challenge-ONE-Encriptador-de-Texto" target="_blank"><button class="boton__repositorio" data-section="proyect" data-value="proyect-button-rep">Repository</button></a>
                             <a href="https://cyn-25.github.io/Challenge-ONE-Encriptador-de-Texto/" target="_blank"><button class="boton__demo">Demo</button></a>
                         </div>
                     </div>
@@ -70,10 +77,10 @@
                 <div class="proyecto-portafolio">
                     <img src="./assets/img/portafolio/portafolio.png" alt="" class="proyecto-portafolio__img">
                     <div class="proyecto-portafolio__detalles">
-                        <h2 class="proyecto-portafolio__titulo">Web Portfolio</h2>
+                        <h2 class="proyecto-portafolio__titulo" data-section="proyect" data-value="proyect-title-web">Web Portfolio</h2>
                         <p class="proyecto-portafolio__texto">Challenge Oracle + Alura Latam</p>
                         <div class="botones">
-                            <a href="https://github.com/Cyn-25/Web-Portfolio" target="_blank"><button class="boton__repositorio">Repository</button></a>
+                            <a href="https://github.com/Cyn-25/Web-Portfolio" target="_blank"><button class="boton__repositorio" data-section="proyect" data-value="proyect-button-rep">Repository</button></a>
                             <a href="https://cyn-25.github.io/Web-Portfolio/" target="_blank"><button class="boton__demo">Demo</button></a>
                         </div>
                     </div>
@@ -89,9 +96,9 @@
                     <a href="https://cynthia_hr.artstation.com/" target="_blank" class="fa-brands fa-artstation" id="artstation"></a>
                     <a href="https://www.behance.net/cynthiahr25" target="_blank" class="fa-brands fa-square-behance" id="behance"></a>
                 </div>
-                <p class="rodapie__informacion">2023 Developed by Cynthia Hernández</p>
+                <p class="rodapie__informacion" data-section="footer" data-value="footer_text">2023 Developed by Cynthia Hernández</p>
             </section>
         </footer>
+        <script src="js/script.js"></script>
     </body>
-</body>
 </html>

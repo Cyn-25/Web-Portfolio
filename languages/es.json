@@ -1,0 +1,157 @@
+{
+    "encabezado": {
+        "about-me": "Sobre mí",
+        "projects": "Proyectos",
+        "3d-animation": "Animación 3D",
+        "3d-modeling": "Modelado 3D",
+        "illustration": "Ilustración",
+        "programming": "Programación"
+    } ,
+
+    "mensaje_principal": {
+        "mensaje_principal-titulo": "¡Hola! Soy ",
+        "mensaje_principal-color":"Cynthia Hernández",
+        "mensaje_principal-descripcion": "Soy una animadora 3D, artista 3D, ilustradora, desarrolladora Front-End y editora de fotografía y videos con base en Hidalgo, Mexico.",
+        "mensaje_principal-button": "Mi Currículum"
+    },
+
+    "sobre_mi":{
+        "sobre_mi-descripcion-1": "Soy ingeniera en Animación y Efectos Visuales con amplia experiencia en áreas como desarrollo Front-End, modelado 3D, animación 3D, diseño y edición multimedia. Soy comprometida, responsable y siempre me esfuerzo por entregar resultados de alta calidad.",
+        
+        "sobre_mi-descripcion-2": "Constantemente busco nuevas formas de expresión a través del diseño y la tecnología, manteniéndome actualizada con las últimas tendencias y herramientas creativas. Mi pasión radica en desafiar los límites y explorar formas innovadoras de dar vida a ideas.",
+        "sobre_mi-descripcion-3": "Mi experiencia abarca desde trabajar en la creación de modelos 3D y animaciones para una campaña publicitaria hasta generar objetos tridimensionales basados en arte conceptual. En mi rol anterior como modeladora 3D en un estudio de animación, tuve la oportunidad de colaborar con artistas, diseñadores y otros modeladores para desarrollar el proyecto.",
+        "sobre_mi-descripcion-4": "Estoy emocionada de colaborar contigo y crear experiencias visuales impactantes."
+    },
+
+    "habilidades": {
+        "habilidades-titulo": "Habilidades",
+        "habilidades-3dmodel": "Modelado 3D",
+        "habilidades-3danimation": "Animación 3D",
+        "habilidades-media": "Edición de Media",
+        "habilidades-illustration": "Ilustración"
+    },
+
+    "formaciones-cursos":{
+        "formaciones-cursos_titulo": "Cursos y educación",
+        "formaciones-cursos_universidad": "Ingeniería en Animación y Efectos Visuales",
+        "formaciones-cursos_html": "Formación HTML & CSS",
+        "formaciones-cursos_business": "Agilidad en negocios",
+        "formaciones-cursos_front": "Desarrollo en Front-End"
+    },
+    
+    "experience": {
+        "experience_titulo": "Experiencia",
+        "experience_generalist": "Centro Interactivo Mundo Futbol | Generalista 3D (Pasantía)",
+        "experience_generalist-details": "Detalles",
+        "experience_generalist-texto": "Hice el modelo, rig y animación de su mascota",
+        "experience_artist": "Mokiki Animation| Artista 3D (Pasantía)",
+        "experience_artist-details": "Detalles",
+        "experience_artist-text-1": "Desarrollé concept art para el videojuego",
+        "experience_artist-text-2": "Desarrollé el modelo 3D de props (Mid-poly)"
+    },
+
+    "ilustracion":{
+        "ilustracion-titulo": "Ilustración",
+        "ilustracion-fox": "Zorro",
+        "ilustracion-wisp": "Espíritu",
+        "ilustracion-yoda": "Yoda bebé",
+        "ilustracion-nymph": "Ninfa",
+        "ilustracion-mischief":"Engaño",
+        "ilustracion-blade": "Cuchilla",
+        "ilustracion-sh4": "Monstruo SH4",
+        "ilustracion-radio": "Chica Radio",
+        "ilustracion-doggy": "Cachorro",
+        "ilustracion-creature": "Criatura",
+        "ilustracion-teeth": "Dientes",
+        "ilustracion-fish": "Pez",
+        "ilustracion-dig": "Excavar",
+        "ilustracion-duality": "DualiDAD"
+    },
+
+    "proyects":{
+        "programming-title":"Programación"
+    },
+
+    "proyect":{
+        "proyect-title-text": "Encriptador de texto",
+        "proyect-text": "Challenge Oracle + Alura Latam para codificar texto",
+        "proyect-button-rep": "Repositorio",
+        "proyect-title-web": "Portafolio Web"
+    },
+
+    "model-3d":{
+        "model-3d-title":"Modelado 3D"
+    },
+
+    "model-3d__area":{
+        "model-3d-potion":"Poción",
+        "model-3d-bahno": "Baño",
+        "model-3d-keys": "Llaves de RCPD",
+        "model-3d-blade": "Espada del cielo",
+        "model-3d-lamp": "Lámpara Seelie",
+        "model-3d-theatre": "Teatro embrujado",
+        "model-3d-wings": "Alas de la libertad",
+        "model-3d-oil": "Estación de aceite",
+        "model-3d-empire": "Empire State",
+        "model-3d-sh": "Entrada de Silent hill",
+        "model-3d-eve": "Estatua Eve"
+    } ,
+
+    "animation":{
+        "animation-title": "Animación 3D",
+        "animation-attacks": "Ataques",
+        "animation-mistery": "Escena de misterio",
+        "animation-wizard": "Animación de maga",
+        "animation-dog": "Perro y pelota"
+    },
+
+    "animation-proyect":{
+        "animation-proyect-details": "Detalles",
+        "animation-proyect-text-lip": "Experimenta una cautivante animación sobre lip sync y mecánica corporal, meticulosamente hecha para traer a la vida cada fotograma.",
+        "animation-proyect-lip-link1": "Modelado por  Mia Pray [Modelo - Textura], Rijah Kazuo [rigging] & Sagar Arun [Animación - Prueba de Rig]",
+        "animation-proyect-lip-link2": "Música: INCOMING - MC ORSEN",
+        "animation-proyect-lip-link3": "Voz de Scaramouche - Genshin Impact",
+
+        "animation-proyect-title-attacks": "Ataques",
+        "animation-proyect-text-attacks": "Se puede ver una serie de ataques del personaje Heizou de Genshin Impact.",
+        "animation-proyect-attacks-link1": "Modelado por Alex Salmar",
+        "animation-proyect-attacks-link2": "Referencia: Rulaineyu & Heizou [Genshin Impact]",
+        "animation-proyect-attacks-link3": "Desarrollado en Maya Autodesk",
+
+        "animation-proyect-title-mistery": "Escena de misterio",
+        "animation-proyect-text-mistery": "Animación de una chica, un vaquero y un perro investigando un misterio en el bosque.",
+        "animation-proyect-mistery-link1": "Los modelos y el escenario no son míos",
+        "animation-proyect-mistery-link2": "El audio es de la película live action Scooby Doo: La Isla Misteriosa",
+        "animation-proyect-mistery-link3": "Desarrollado en Maya Autodesk",
+
+        "animation-proyect-text-jd": "Spider-Gwen bailando sobre un escenario un trend de Tik Tok.",
+        "animation-proyect-jd-link1": "Ningún prop es mío.",
+        "animation-proyect-jd-link2": "Música por Lady Gaga",
+        "animation-proyect-jd-link3": "Fue animado en Autodesk Maya y renderizado en Marmoset Toolbag.",
+
+        "animation-proyect-title-wa": "Animación de maga",
+        "animation-proyect-text-wa": "Animación de lip sync y mecánica de cuerpo que se muestra en una actuación.",
+        "animation-proyect-wa-link1": "Modelado por Joona Pääkkönen",
+        "animation-proyect-wa-link2": "La música y la voz del chico es de la película de E.T. (Across the moon)",
+        "animation-proyect-wa-link3": "La voz de la chica es de Legacies por Danielle Rose Russell",
+        "animation-proyect-wa-link4": "Escenario de Creazilla",
+
+        "animation-proyect-title-dog": "Perro y pelota",
+        "animation-proyect-text-dog": "Escena de un perro siguiendo una pelota y después hablando con él mismo, o mejor dicho, con su reflejo.",
+        "animation-proyect-dog-link1": "El modelo del perro fue hecho por Truong CG Artist",
+        "animation-proyect-dog-link2": "El audio fue tomado de Scooby Doo Misterios S.A.",
+        "animation-proyect-dog-link3": "El modelo de la habitación fue hecho por mí",
+        "animation-proyect-dog-link4": "Software usado: Autodesk Maya",
+
+        "animation-proyect-text-rude": "Bony bailando Rude Boy siguiendo una coreografía del juego Dance Central 2.",
+        "animation-proyect-rude-link1": "Modelado por Uğur Ulvi Yetişkin",
+        "animation-proyect-rude-link2": "Música de Rihanna",
+        "animation-proyect-rude-link3": "Coreografía de Marcos Aguirre / Frenchy Hernandez",
+        "animation-proyect-rude-link4": "Software usado: Autodesk Maya"
+    },
+
+    "footer": {
+        "footer_text": "2023 Desarrollado por Cynthia Hernández"
+    }
+
+}

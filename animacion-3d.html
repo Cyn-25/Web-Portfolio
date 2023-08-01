@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado.css" />
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado__nombre.css" />
+        <link rel="stylesheet" href="./assets/css/encabezado/flags.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal__titulo.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal__descripcion.css" />
@@ -41,22 +42,28 @@
     </head>
     <body>
         <header class="encabezado">
-            <h2 class="encabezado__nombre">&#10053;Cynthia Hernández</h2>
-                <nav class="menu-nav">
-                    <ul class="menu__lista">
-                        <li class="menu__item" ><a href="./index.html" class="menu__link activo">About me</a></li>
-                        <li class="menu__item" ><a href="./3d-modelado.html" class="menu__link">3D Modeling</a></li>
-                        <li class="menu__item" ><a href="./programacion.html" class="menu__link">Programming</a></li>
-                        <li class="menu__item" ><a href="./ilustracion.html" class="menu__link">Illustration</a></li>  
-                    </ul>
-                </nav>
-            </div>     
+            <nav class="menu-nav">
+                <ul class="menu__lista">
+                    <li class="menu__item" ><a href="./index.html" class="menu__link activo" data-section="encabezado" data-value="about-me">About me</a></li>
+                    <li class="menu__item" ><a href="./3d-modelado.html" class="menu__link" data-section="encabezado" data-value="3d-modeling">3D Modeling</a></li>  
+                    <li class="menu__item" ><a href="./ilustracion.html" class="menu__link" data-section="encabezado" data-value="illustration">Illustration</a></li>  
+                    <li class="menu__item" ><a href="./programacion.html" class="menu__link" data-section="encabezado" data-value="programming">Programming</a></li>
+                </ul>
+            </nav>
+            <div class="flags" id="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/img/spanish.svg" alt="">
+                </div>
+    
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/img/english.svg" alt="">
+                </div>
         </header>
 
         <main>
             <section class="proyectos">
                 <div class="animacion__titulo">
-                    <h1>3D Animation</h1>
+                    <h1 data-section="animation" data-value="animation-title">3D Animation</h1>
                 </div>
                 <div class="animacion">
 
@@ -70,14 +77,14 @@
                     <div class="animacion-3d__proyecto">
                         <a href="./Attacks.html"><img class="animacion-3d__imagen" src="./assets/img/portafolio/animacion/miniaturas/attack.png"></a>
                         <div class="animacion-3d__area--nombre">
-                            <h2>Attacks</h2>
+                            <h2 data-section="animation" data-value="animation-attacks">Attacks</h2>
                         </div>    
                     </div>
 
                     <div class="animacion-3d__proyecto">
                         <a href="./Mistery-scene.html"><img class="animacion-3d__imagen" src="./assets/img/portafolio/animacion/miniaturas/scooby-doo-movie-scene.png"></a>
                         <div class="animacion-3d__area--nombre">
-                            <h2>Mistery Scene</h2>
+                            <h2 data-section="animation" data-value="animation-mistery">Mistery Scene</h2>
                         </div>    
                     </div>
 
@@ -91,14 +98,14 @@
                     <div class="animacion-3d__proyecto">
                         <a href="./Wizard-Animation.html"><img class="animacion-3d__imagen" src="./assets/img/portafolio/animacion/miniaturas/Aang-and-witch.png"></a>
                         <div class="animacion-3d__area--nombre">
-                            <h2>Wizard animation</h2>
+                            <h2 data-section="animation" data-value="animation-wizard">Wizard animation</h2>
                         </div>    
                     </div>
 
                     <div class="animacion-3d__proyecto">
                         <a href="./Dog-Ball.html"><img class="animacion-3d__imagen" src="./assets/img/portafolio/animacion/miniaturas/Dog-acting-ball.png"></a>
                         <div class="animacion-3d__area--nombre">
-                            <h2>Dog & ball</h2>
+                            <h2 data-section="animation" data-value="animation-dog">Dog & ball</h2>
                         </div>    
                     </div>
 
@@ -123,9 +130,9 @@
                     <a href="https://cynthia_hr.artstation.com/" target="_blank" class="fa-brands fa-artstation" id="artstation"></a>
                     <a href="https://www.behance.net/cynthiahr25" target="_blank" class="fa-brands fa-square-behance" id="behance"></a>
                 </div>
-                <p class="rodapie__informacion">2023 Developed by Cynthia Hernández</p>
+                <p class="rodapie__informacion" data-section="footer" data-value="footer_text">2023 Developed by Cynthia Hernández</p>
             </section>
         </footer>
+        <script src="js/script.js"></script>
     </body>
-</body>
 </html>

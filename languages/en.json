@@ -1,0 +1,158 @@
+{
+    "encabezado": {
+        "about-me": "About me",
+        "projects": "Projects",
+        "3d-animation": "3D Animation",
+        "3d-modeling": "3D Modeling",
+        "illustration": "Illustration",
+        "programming": "Programming"
+    } ,
+
+    "mensaje_principal": {
+        "mensaje_principal-titulo": "¡Hey! I am ",
+        "mensaje_principal-color":"Cynthia Hernández",
+        "mensaje_principal-descripcion": "I am a 3D Animator, 3D Artist, Illustrator, Front-End developer, and Edition Media based in Hidalgo, Mexico.",
+        "mensaje_principal-button": "My Resume"
+    },
+
+    "sobre_mi":{
+        "sobre_mi-descripcion-1": "I'm an engineer in Animation and Visual Effects with extensive experience in areas such as Front-End development, 3D modeling, 3D animation, design and multimedia editing. I am committed, responsible, and always strive to deliver high-quality results.",
+
+        "sobre_mi-descripcion-2":"I constantly seek new forms of expression through design and technology, staying up-to-date with the latest trends and creative tools. My passion lies in pushing the boundaries and exploring innovative ways to bring ideas to life.",
+        "sobre_mi-descripcion-3": "My experience ranges from working on the creation of 3D models and animations for an advertising campaign to generating 3D objects based on concept art. In my previous role as a 3D modeler at an animation studio, I had the opportunity to collaborate with artists, designers, and fellow modelers to develop the project. ",
+        "sobre_mi-descripcion-4": "I'm excited to collaborate with you and create impactful visual experiences."
+    },
+
+    "habilidades": {
+        "habilidades-titulo": "Skills",
+        "habilidades-3dmodel": "3D Modeling",
+        "habilidades-3danimation": "3D Animation",
+        "habilidades-media": "Media Edition",
+        "habilidades-illustration": "Illustration"
+    },
+
+    "formaciones-cursos":{
+        "formaciones-cursos_titulo": "Courses and Education",
+        "formaciones-cursos_universidad": "Animation and Visual Effects",
+        "formaciones-cursos_html": "HTML & CSS Formation",
+        "formaciones-cursos_business": "Business Agility",
+        "formaciones-cursos_front": "Front-End Development"
+    },
+    
+    "experience": {
+        "experience_titulo": "Experience",
+        "experience_generalist": "Centro Interactivo Mundo Futbol | 3D Generalist (Internship)",
+        "experience_generalist-details": "Details",
+        "experience_generalist-texto": "I modeled, rigged and animated their mascot.",
+        "experience_artist": "Mokiki Animation| Artista 3D (Pasantía)",
+        "experience_artist-details": "Details",
+        "experience_artist-text-1": "I worked on some concept art for a videogame.",
+        "experience_artist-text-2": "I developed the 3D model of props (mid poly)."
+    },
+
+    "ilustracion":{
+        "ilustracion-titulo": "Illustration",
+        "ilustracion-fox": "Fox",
+        "ilustracion-wisp": "Wisp",
+        "ilustracion-yoda": "Baby Yoda",
+        "ilustracion-nymph": "Nymph",
+        "ilustracion-mischief":"Mischief",
+        "ilustracion-blade": "Blade",
+        "ilustracion-sh4": "SH4 Monster",
+        "ilustracion-radio": "Radio Girl",
+        "ilustracion-doggy": "Doggy",
+        "ilustracion-creature": "Creature",
+        "ilustracion-teeth": "Teeth",
+        "ilustracion-fish": "Fish",
+        "ilustracion-dig": "Dig",
+        "ilustracion-duality": "Duality"
+    },
+
+    "proyects":{
+        "programming-title":"Programming"
+    },
+
+    "proyect":{
+        "proyect-title-text": "Text Encrypt",
+        "proyect-text": "Challenge Oracle + Alura Latam for coding texts",
+        "proyect-button-rep": "Repository",
+        "proyect-title-web": "Web Portfolio"
+    },
+
+    "model-3d":{
+        "model-3d-title":"3D Modeling"
+    },
+
+    "model-3d__area":{
+        "model-3d-potion":"Potion",
+        "model-3d-bahno": "Bathroom",
+        "model-3d-keys": "RCPD Keys",
+        "model-3d-blade": "Skyward Blade",
+        "model-3d-lamp": "Seelie lamp",
+        "model-3d-theatre": "Haunted theatre",
+        "model-3d-wings": "Wings of freedom",
+        "model-3d-oil": "Pumping oil station",
+        "model-3d-empire": "Empire State",
+        "model-3d-sh": "Silent hill entrance",
+        "model-3d-eve": "Eve statue"
+    } ,
+    
+    "animation":{
+        "animation-title": "3D Animation",
+        "animation-attacks": "Attacks",
+        "animation-mistery": "Mystery scene",
+        "animation-wizard": "Wizard Animation",
+        "animation-dog": "Dog & Ball"
+    },
+
+    "animation-proyect":{
+        "animation-proyect-details": "Details",
+        "animation-proyect-text-lip": "Experience a captivating lip sync and body mechanics' animation, meticulously crafted to bring every frame to life.",
+        "animation-proyect-lip-link1": "Modeled by  Mia Pray [Modeling - Texturing], Rijah Kazuo [rigging] & Sagar Arun [Animation - Rig Testing]",
+        "animation-proyect-lip-link2": "Music: INCOMING - MC ORSEN",
+        "animation-proyect-lip-link3": "Voice from Scaramouche - Genshin Impact",
+
+        "animation-proyect-title-attacks": "Attacks",
+        "animation-proyect-text-attacks": "Here you can see a serie of attacks of the charater Heizou from Genshin Impact.",
+        "animation-proyect-attacks-link1": "Modeled by  Alex Salmar",
+        "animation-proyect-attacks-link2": "Reference: Rulaineyu & Heizou [Genshin Impact]",
+        "animation-proyect-attacks-link3": "Developed on Maya Autodesk",
+
+        "animation-proyect-title-mistery": "Mistery Scene",
+        "animation-proyect-text-mistery": "Animation of a woman, a cowboy and a dog searching on the woods for a mistery.",
+        "animation-proyect-mistery-link1": "Models and scenario are not mine",
+        "animation-proyect-mistery-link2": "Audio from live action movie Scooby Doo: Spooky Island.",
+        "animation-proyect-mistery-link3": "Developed on Maya Autodesk",
+
+        "animation-proyect-text-jd": "Spider-Gwen dancing on a scenario a trend from Tik Tok.",
+        "animation-proyect-jd-link1": "None of the props are mine",
+        "animation-proyect-jd-link2": "Music by Lady Gaga",
+        "animation-proyect-jd-link3": "It was animated on Autodesk Maya and rendered on Marmoset Toolbag.",
+
+        "animation-proyect-title-wa": "Wizard animation",
+        "animation-proyect-text-wa": "Lip sync and body mechanics' animation shown on an acting scene.",
+        "animation-proyect-wa-link1": "Modeled by Joona Pääkkönen",
+        "animation-proyect-wa-link2": "Music and boy's voice from E.T. movie (Across the moon)",
+        "animation-proyect-wa-link3": "Woman's voice from Legacies by Danielle Rose Russell",
+        "animation-proyect-wa-link4": "Scenario from Creazilla",
+
+        "animation-proyect-title-dog": "Dog & Ball",
+        "animation-proyect-text-dog": "Scene of a dog following a ball and then talking to itself, or rather said, its reflection.",
+        "animation-proyect-dog-link1": "Dog's model by Truong CG Artist",
+        "animation-proyect-dog-link2": "The audio was taken from Scooby Doo Mystery Incorporated",
+        "animation-proyect-dog-link3": "The room's model was made by me",
+        "animation-proyect-dog-link4": "Software used: Autodesk Maya",
+
+        "animation-proyect-title-rude": "Rude Boy",
+        "animation-proyect-text-rude": "Bony dancing Rude Boy following a choreography from the game Dance Central 2.",
+        "animation-proyect-rude-link1": "Modeled by Uğur Ulvi Yetişkin",
+        "animation-proyect-rude-link2": "Music by Rihanna",
+        "animation-proyect-rude-link3": "Choreography by Marcos Aguirre / Frenchy Hernandez",
+        "animation-proyect-rude-link4": "Software used: Autodesk Maya"
+    },
+
+    "footer": {
+        "footer_text": "2023 Developed by Cynthia Hernández"
+    }
+
+}

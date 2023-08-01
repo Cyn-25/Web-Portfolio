@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="./assets/css/flexbox.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado.css" />
+        <link rel="stylesheet" href="./assets/css/encabezado/flags.css" />
         <link rel="stylesheet" href="./assets/css/encabezado/encabezado__nombre.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal.css" />
         <link rel="stylesheet" href="./assets/css/mensaje--principal/mensaje--principal__titulo.css" />
@@ -57,37 +58,43 @@
         
     </head>
     <body>
-        <header class="encabezado">
-            <h2 class="encabezado__nombre">&#10053; Cynthia Hernández</h2>
+        <header class="encabezado">     
+            <nav class="menu-nav">    
+                <ul class="menu__lista">      
+                    <li class="menu__item" ><a href="./index.html" class="menu__link activo" data-section="encabezado" data-value="about-me">About me</a></li>    
+                    <li class="menu__item"><a class="menu__link" href="./animacion-3d.html" data-section="encabezado" data-value="projects">Projects</a>     
+                        <ul class="menu-desplegable">   
+                            <li class="menu-desplegable__item"><a href="./animacion-3d.html" class="menu-desplegable__link" data-section="encabezado" data-value="3d-animation">3D Animation</a></li>
+                            <li class="menu-desplegable__item"><a href="./3d-modelado.html" class="menu-desplegable__link" data-section="encabezado" data-value="3d-modeling">3D Modeling</a></li>
+                            <li class="menu-desplegable__item"><a href="./ilustracion.html" class="menu-desplegable__link" data-section="encabezado" data-value="illustration">Illustration</a></li>
+                            <li class="menu-desplegable__item"><a href="./programacion.html" class="menu-desplegable__link" data-section="encabezado" data-value="programming">Programming</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+                <div class="flags" id="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/img/spanish.svg" alt="">
+                </div>
 
-                <nav class="menu-nav">
-                    <ul class="menu__lista">
-                        <li class="menu__item" ><a href="./index.html" class="menu__link activo">About me</a></li>
-                        <li class="menu__item"><a class="menu__link" href="./animacion-3d.html">Projects</a>
-                            <ul class="menu-desplegable">
-                                <li class="menu-desplegable__item"><a href="./animacion-3d.html" class="menu-desplegable__link">3D Animation</a></li>
-                                <li class="menu-desplegable__item"><a href="./3d-modelado.html" class="menu-desplegable__link">3D Modeling</a></li>
-                                <li class="menu-desplegable__item"><a href="./ilustracion.html" class="menu-desplegable__link">Illustration</a></li>
-                                <li class="menu-desplegable__item"><a href="./programacion.html" class="menu-desplegable__link">Programming</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>     
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/img/english.svg" alt="">
+                </div>
+            </div>
+            </div>    
         </header>
 
         <main>
             <section class="mensaje--principal">
                 <div class="mensaje--principal__contenido">
-                    <h1 class="mensaje--principal__titulo">
-                        ¡Hey! I am <span id="palabras--color">Cynthia Hernández</span> <br> <br> 
-                    </h1>
-                    <p class="mensaje--principal__descripcion">
+                    <h1 class="mensaje--principal__titulo" data-section="mensaje_principal" data-value="mensaje_principal-titulo">¡Hey! I am </h1><h1 class="palabras--color" data-section="mensaje_principal" data-value="mensaje_principal-color">Cynthia Hernández</h1> <br> <br> 
+                    
+                    <p class="mensaje--principal__descripcion" data-section="mensaje_principal" data-value="mensaje_principal-descripcion">
                         I am a 3D Animator, 3D Artist, Illustrator, Front-End developer, and Edition Media based in Hidalgo, Mexico. <br>
                     </p>
                     
                     <div class="sobre--mi__boton">
-                        <a href="./assets/archivos/CV_Cynthia-Hernandez.pdf" target="_blank"><button class="boton--cv">My resume</button></a>
+                        <a href="./assets/archivos/CV_Cynthia-Hernandez.pdf" target="_blank"><button class="boton--cv" data-section="mensaje_principal" data-value="mensaje_principal-button">My resume</button></a>
                     </div>
                 </div>
                 <div class="sobre--mi__profile-area" >
@@ -98,21 +105,21 @@
             <section class="sobre--mi" id="sobre-mi">
                 <div class="sobre--mi__contenido">
                     <h2 class="sobre--mi__titulo"><br>About me</h2>
-                    <p class="sobre--mi__descripcion">
-                        I'm an engineer in Animation and Visual Effects with extensive experience in areas such as Front-End development, 3D modeling, 3D animation, design and multimedia editing. I am committed, responsible, and always strive to deliver high-quality results. <br><br>
+                    <p class="sobre--mi__descripcion" data-section="sobre_mi" data-value="sobre_mi-descripcion-1">
+                        I'm an engineer in Animation and Visual Effects with extensive experience in areas such as Front-End development, 3D modeling, 3D animation, design and multimedia editing. I am committed, responsible, and always strive to deliver high-quality results.</p> 
 
-                        I constantly seek new forms of expression through design and technology, staying up-to-date with the latest trends and creative tools. My passion lies in pushing the boundaries and exploring innovative ways to bring ideas to life. <br><br>
+                        <p class="sobre--mi__descripcion" data-section="sobre_mi" data-value="sobre_mi-descripcion-2">I constantly seek new forms of expression through design and technology, staying up-to-date with the latest trends and creative tools. My passion lies in pushing the boundaries and exploring innovative ways to bring ideas to life. </p>
 
-                        My experience ranges from working on the creation of 3D models and animations for an advertising campaign to generating 3D objects based on concept art. In my previous role as a 3D modeler at an animation studio, I had the opportunity to collaborate with artists, designers, and fellow modelers to develop the project. <br><br>
+                        <p class="sobre--mi__descripcion" data-section="sobre_mi" data-value="sobre_mi-descripcion-3"> My experience ranges from working on the creation of 3D models and animations for an advertising campaign to generating 3D objects based on concept art. In my previous role as a 3D modeler at an animation studio, I had the opportunity to collaborate with artists, designers, and fellow modelers to develop the project. </p>
 
-                        I'm excited to collaborate with you and create impactful visual experiences. <br><br>
+                        <p class="sobre--mi__descripcion" data-section="sobre_mi" data-value="sobre_mi-descripcion-4">I'm excited to collaborate with you and create impactful visual experiences. </p> <br> 
                     </p>
                 </div>
             </section>
 
             <section class="habilidades" id="habilidades">
                 <div class="habilidades__contenido">
-                    <h2 class="habilidades__subtitulo">Skills</h2>
+                    <h2 class="habilidades__subtitulo" data-section="habilidades" data-value="habilidades-titulo">Skills</h2>
                     <nav>
                         <ul class="habilidades__lista">
                             <div class="habilidad__conjunto">
@@ -129,19 +136,19 @@
                             </div>
                             <div class="habilidad__conjunto">
                                 <img src="./assets/img/habilidades/modelado-3d.png" alt="icono de habilidad" class="habilidad__img">
-                                <li class="habilidades__item"><a class="habilidades__link">3D Model</a></li>
+                                <li class="habilidades__item"><a class="habilidades__link" data-section="habilidades" data-value="habilidades-3dmodel">3D Model</a></li>
                             </div>
                             <div class="habilidad__conjunto">
                                 <img src="./assets/img/habilidades/animacion-3d.png" alt="" class="habilidad__img">
-                                <li class="habilidades__item"><a class="habilidades__link">3D Animation</a></li>
+                                <li class="habilidades__item"><a class="habilidades__link" data-section="habilidades" data-value="habilidades-3danimation">3D Animation</a></li>
                             </div>
                             <div class="habilidad__conjunto">
                                 <img src="./assets/img/habilidades/edicion-video.png" alt="icono de habilidad" class="habilidad__img">
-                                <li class="habilidades__item"><a class="habilidades__link">Media Edition</a></li>
+                                <li class="habilidades__item"><a class="habilidades__link" data-section="habilidades" data-value="habilidades-media">Media Edition</a></li>
                             </div>   
                             <div class="habilidad__conjunto">
                                 <img src="./assets/img/habilidades/ilustracion.png" alt="icono de habilidad" class="habilidad__img">
-                                <li class="habilidades__item"><a class="habilidades__link">Illustration</a></li>
+                                <li class="habilidades__item"><a class="habilidades__link" data-section="habilidades" data-value="habilidades-illustration">Illustration</a></li>
                             </div>      
                         </ul>
                     </nav>
@@ -219,13 +226,13 @@
             </section>
 
             <section class="formaciones" id="formaciones">
-                <h2 class="formaciones__titulo">Courses and Education</h2>
+                <h2 class="formaciones__titulo" data-section="formaciones-cursos" data-value="formaciones-cursos_titulo">Courses and Education</h2>
                 <div class="formaciones__contenido">
 
                     <div class="formacion">
                         <div class="formacion__imagen formacion__imagen--upmh"></div>
                         <div class="formacion__texto">
-                            <h2 class="formacion__nombre">Animation and Visual Effects</h2>
+                            <h2 class="formacion__nombre" data-section="formaciones-cursos" data-value="formaciones-cursos_universidad">Animation and Visual Effects</h2>
                             <p class="formacion__detalle">2018-2022 | UPMH</p>
                         </div>         
                     </div>
@@ -241,7 +248,7 @@
                     <div class="formacion">
                         <div class="formacion__imagen formacion__imagen--alura"></div>
                         <div class="formacion__texto">
-                            <h2 class="formacion__nombre">HTML & CSS Formation</h2>
+                            <h2 class="formacion__nombre" data-section="formaciones-cursos" data-value="formaciones-cursos_html">HTML & CSS Formation</h2>
                             <p class="formacion__detalle">2023 | Alura</p>
                         </div> 
                     </div>
@@ -249,7 +256,7 @@
                     <div class="formacion">
                         <div class="formacion__imagen formacion__imagen--alura"></div>
                         <div class="formacion__texto">
-                            <h2 class="formacion__nombre">Business Agility</h2>
+                            <h2 class="formacion__nombre" data-section="formaciones-cursos" data-value="formaciones-cursos_business">Business Agility</h2>
                             <p class="formacion__detalle">2023 | Alura</p>
                         </div>
                     </div>
@@ -257,7 +264,7 @@
                     <div class="formacion">
                         <div class="formacion__imagen formacion__imagen--alura"></div>
                         <div class="formacion__texto">
-                            <h2 class="formacion__nombre">Front-End Development</h2>
+                            <h2 class="formacion__nombre" data-section="formaciones-cursos" data-value="formaciones-cursos_front">Front-End Development</h2>
                             <p class="formacion__detalle">Ongoing | Alura</p>
                         </div>
                         
@@ -266,13 +273,13 @@
             </section>
 
             <section class="experiencia">
-                <h2 class="experiencia__titulo">Experience</h2>
+                <h2 class="experiencia__titulo" data-section="experience" data-value="experience_titulo">Experience</h2>
                 <div class="experiencia__contenido">
                         <img src="./assets/img/experiencia/centro-interactivo.jpg" alt="" class="experiencia__img">
                         <div class="experiencia__texto"> 
-                            <h2 class="experiencia__nombre">Centro Interactivo Mundo Futbol | 3D Generalist (Internship) </h2>
-                            <h4 class="experiencia__detalle">Details</h4>
-                            <div class="experiencia__texto">
+                            <h2 class="experiencia__nombre" data-section="experience" data-value="experience_generalist">Centro Interactivo Mundo Futbol | 3D Generalist (Internship) </h2>
+                            <h4 class="experiencia__detalle" data-section="experience" data-value="experience_generalist-details">Details</h4>
+                            <div class="experiencia__texto" data-section="experience" data-value="experience_generalist-texto">
                                 <ul class="lista-detalles">
                                     <li class="experiencia-link">I modeled, rigged and animated their mascot.</li>
                                 </ul>  
@@ -284,12 +291,12 @@
                         <img src="./assets/img/experiencia/mokiki.png" alt="" class="experiencia__img">
                         <div class="experiencia__imagen experiencia__imagen--mokiki"></div>
                         <div class="experiencia__texto">
-                            <h2 class="experiencia__nombre">Mokiki Animation| 3D Artist (Internship) </h2>
-                            <h4 class="experiencia__detalle">Details</h4>
+                            <h2 class="experiencia__nombre" data-section="experience" data-value="experience_artist">Mokiki Animation| 3D Artist (Internship) </h2>
+                            <h4 class="experiencia__detalle" data-section="experience" data-value="experience_artist-details" data-section="experience" data-value="experience_artist-details">Details</h4>
                             <div class="experiencia__texto">
                                 <ul class="lista-detalles">
-                                    <li class="experiencia-link">I worked on some concept art for a videogame.</li>
-                                    <li class="experiencia-link">I developed the 3D model of props (mid poly).</li>
+                                    <li class="experiencia-link" data-section="experience" data-value="experience_artist-text-1">I worked on some concept art for a videogame.</li>
+                                    <li class="experiencia-link" data-section="experience" data-value="experience_artist-text-2">I developed the 3D model of props (mid poly).</li>
                                 </ul>  
                             </div>
                         </div>         
@@ -305,8 +312,9 @@
                     <a href="https://cynthia_hr.artstation.com/" target="_blank" class="fa-brands fa-artstation" id="artstation"></a>
                     <a href="https://www.behance.net/cynthiahr25" target="_blank" class="fa-brands fa-square-behance" id="behance"></a>
                 </div>
-                <p class="rodapie__informacion">2023 Developed by Cynthia Hernández</p>
+                <p class="rodapie__informacion" data-section="footer" data-value="footer_text">2023 Developed by Cynthia Hernández</p>
             </section>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
