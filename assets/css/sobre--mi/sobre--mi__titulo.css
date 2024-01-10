@@ -3,13 +3,14 @@
     font-size: 32px;
     font-family: Raleway;
     font-weight: 700;
+    padding-top: 3%;
 }
 
 @media screen and (max-width: 1024px) {
     .sobre--mi__titulo{
         font-size: 22px;
     }
-  }
+}
 
 @media screen and (max-width: 480px) {
     .sobre--mi__titulo{
