@@ -1,23 +1,23 @@
 {
+    "title":{
+        "about-me": "About me",
+        "projects": "Projects"
+    },
     "encabezado": {
         "about-me": "About me",
-        "projects": "Projects",
-        "3d-animation": "3D Animation",
-        "3d-modeling": "3D Modeling",
-        "illustration": "Illustration",
-        "programming": "Programming"
+        "projects": "Projects"
     } ,
 
     "mensaje_principal": {
         "mensaje_principal-titulo": "¡Hey! I am ",
         "mensaje_principal-color":"Cynthia Hernández",
-        "mensaje_principal-descripcion": "I am a 3D Animator, 3D Artist, Illustrator, Front-End developer, and Edition Media based in Hidalgo, Mexico.",
+        "mensaje_principal-descripcion": "I am a Front-End Developer, 3D Animator, 3D Artist, Illustrator and Edition Media based in Hidalgo, Mexico.",
         "mensaje_principal-button": "My Resume"
     },
 
     "sobre_mi":{
         "sobre_mi-titulo": "About me",
-        "sobre_mi-descripcion-1": "I'm an engineer in Animation and Visual Effects with extensive experience in areas such as Front-End development, 3D modeling, 3D animation, design and multimedia editing. I am committed, responsible, and always strive to deliver high-quality results.",
+        "sobre_mi-descripcion-1": "I'm an Engineer in Animation and Visual Effects with extensive experience in areas such as Front-End Development, 3D modeling, 3D animation, design and multimedia editing. I am committed, responsible, and always strive to deliver high-quality results.",
 
         "sobre_mi-descripcion-2":"I constantly seek new forms of expression through design and technology, staying up-to-date with the latest trends and creative tools. My passion lies in pushing the boundaries and exploring innovative ways to bring ideas to life.",
         "sobre_mi-descripcion-3": "My experience ranges from working on the creation of 3D models and animations for an advertising campaign to generating 3D objects based on concept art. In my previous role as a 3D modeler at an animation studio, I had the opportunity to collaborate with artists, designers, and fellow modelers to develop the project. ",
@@ -51,24 +51,6 @@
         "experience_artist-text-2": "I developed the 3D model of props (mid poly)."
     },
 
-    "ilustracion":{
-        "ilustracion-titulo": "Illustration",
-        "ilustracion-fox": "Fox",
-        "ilustracion-wisp": "Wisp",
-        "ilustracion-yoda": "Baby Yoda",
-        "ilustracion-nymph": "Nymph",
-        "ilustracion-mischief":"Mischief",
-        "ilustracion-blade": "Blade",
-        "ilustracion-sh4": "SH4 Monster",
-        "ilustracion-radio": "Radio Girl",
-        "ilustracion-doggy": "Doggy",
-        "ilustracion-creature": "Creature",
-        "ilustracion-teeth": "Teeth",
-        "ilustracion-fish": "Fish",
-        "ilustracion-dig": "Dig",
-        "ilustracion-duality": "Duality"
-    },
-
     "projects":{
         "programming-title":"Programming"
     },
@@ -78,78 +60,6 @@
         "project-text": "Challenge Oracle + Alura Latam for coding texts",
         "project-button-rep": "Repository",
         "project-title-web": "Web Portfolio"
-    },
-
-    "model-3d":{
-        "model-3d-title":"3D Modeling"
-    },
-
-    "model-3d__area":{
-        "model-3d-potion":"Potion",
-        "model-3d-bahno": "Bathroom",
-        "model-3d-keys": "RCPD Keys",
-        "model-3d-blade": "Skyward Blade",
-        "model-3d-lamp": "Seelie lamp",
-        "model-3d-theatre": "Haunted theatre",
-        "model-3d-wings": "Wings of freedom",
-        "model-3d-oil": "Pumping oil station",
-        "model-3d-empire": "Empire State",
-        "model-3d-sh": "Silent hill entrance",
-        "model-3d-eve": "Eve statue"
-    } ,
-    
-    "animation":{
-        "animation-title": "3D Animation",
-        "animation-attacks": "Attacks",
-        "animation-mystery": "Mystery scene",
-        "animation-wizard": "Wizard Animation",
-        "animation-dog": "Dog & Ball"
-    },
-
-    "animation-project":{
-        "animation-project-details": "Details",
-        "animation-project-text-lip": "Experience a captivating lip sync and body mechanics' animation, meticulously crafted to bring every frame to life.",
-        "animation-project-lip-link1": "Modeled by  Mia Pray [Modeling - Texturing], Rijah Kazuo [rigging] & Sagar Arun [Animation - Rig Testing]",
-        "animation-project-lip-link2": "Music: INCOMING - MC ORSEN",
-        "animation-project-lip-link3": "Voice from Scaramouche - Genshin Impact",
-
-        "animation-project-title-attacks": "Attacks",
-        "animation-project-text-attacks": "Here you can see a series of character Heizou's attacks from Genshin Impact.",
-        "animation-project-attacks-link1": "Modeled by  Alex Salmar",
-        "animation-project-attacks-link2": "Reference: Rulaineyu & Heizou [Genshin Impact]",
-        "animation-project-attacks-link3": "Developed on Maya Autodesk",
-
-        "animation-project-title-mystery": "Mystery Scene",
-        "animation-project-text-mystery": "Animation of a woman, a cowboy and a dog searching on the woods for a mystery.",
-        "animation-project-mystery-link1": "Models and scenario are not mine",
-        "animation-project-mystery-link2": "Audio from live action movie Scooby Doo: Spooky Island.",
-        "animation-project-mystery-link3": "Developed on Maya Autodesk",
-
-        "animation-project-text-jd": "Spider-Gwen dancing on a scenario a trend from Tik Tok.",
-        "animation-project-jd-link1": "None of the props are mine",
-        "animation-project-jd-link2": "Music by Lady Gaga",
-        "animation-project-jd-link3": "It was animated on Autodesk Maya and rendered on Marmoset Toolbag.",
-
-        "animation-project-title-wa": "Wizard animation",
-        "animation-project-text-wa": "Lip sync and body mechanics' animation shown on an acting scene.",
-        "animation-project-wa-link1": "Modeled by Joona Pääkkönen",
-        "animation-project-wa-link2": "Music and boy's voice from E.T. movie (Across the moon)",
-        "animation-project-wa-link3": "Woman's voice from Legacies by Danielle Rose Russell",
-        "animation-project-wa-link4": "Scenario from Creazilla",
-
-        "animation-project-title-dog": "Dog & Ball",
-        "animation-project-text-dog": "Scene of a dog following a ball and then talking to itself, or rather said, its reflection.",
-        "animation-project-dog-link1": "Dog's model by Truong CG Artist",
-        "animation-project-dog-link2": "The audio was taken from Scooby Doo Mystery Incorporated",
-        "animation-project-dog-link3": "The room's model was made by me",
-        "animation-project-dog-link4": "Software used: Autodesk Maya",
-
-        "animation-project-title-rude": "Rude Boy",
-        "animation-project-text-rude": "Bony dancing Rude Boy following a choreography from the game Dance Central 2.",
-        "animation-project-rude-link1": "Modeled by Uğur Ulvi Yetişkin",
-        "animation-project-rude-link2": "Music by Rihanna",
-        "animation-project-rude-link3": "Choreography by Marcos Aguirre / Frenchy Hernandez",
-        "animation-project-rude-link4": "Software used: Autodesk Maya"
     },
 
     "footer": {

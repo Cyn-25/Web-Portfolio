@@ -1,23 +1,23 @@
 {
+    "title":{
+        "about-me": "Sobre mí",
+        "projects": "Proyectos"
+    },
     "encabezado": {
         "about-me": "Sobre mí",
-        "projects": "Proyectos",
-        "3d-animation": "Animación 3D",
-        "3d-modeling": "Modelado 3D",
-        "illustration": "Ilustración",
-        "programming": "Programación"
+        "projects": "Proyectos"
     } ,
 
     "mensaje_principal": {
         "mensaje_principal-titulo": "¡Hola! Soy ",
         "mensaje_principal-color":"Cynthia Hernández",
-        "mensaje_principal-descripcion": "Soy una animadora 3D, artista 3D, ilustradora, desarrolladora Front-End y editora de fotografía y videos con base en Hidalgo, Mexico.",
+        "mensaje_principal-descripcion": "Soy una desarrolladora Front-End, animadora 3D, artista 3D, ilustradora y editora de fotografía y videos con base en Hidalgo, Mexico.",
         "mensaje_principal-button": "Mi Currículum"
     },
 
     "sobre_mi":{
         "sobre_mi-titulo": "Sobre mí",
-        "sobre_mi-descripcion-1": "Soy ingeniera en Animación y Efectos Visuales con amplia experiencia en áreas como desarrollo Front-End, modelado 3D, animación 3D, diseño y edición multimedia. Soy comprometida, responsable y siempre me esfuerzo por entregar resultados de alta calidad.",
+        "sobre_mi-descripcion-1": "Soy Ingeniera en Animación y Efectos Visuales con amplia experiencia en áreas como desarrollo Front-End, modelado 3D, animación 3D, diseño y edición multimedia. Soy comprometida, responsable y siempre me esfuerzo por entregar resultados de alta calidad.",
         
         "sobre_mi-descripcion-2": "Constantemente busco nuevas formas de expresión a través del diseño y la tecnología, manteniéndome actualizada con las últimas tendencias y herramientas creativas. Mi pasión radica en desafiar los límites y explorar formas innovadoras de dar vida a ideas.",
         "sobre_mi-descripcion-3": "Mi experiencia abarca desde trabajar en la creación de modelos 3D y animaciones para una campaña publicitaria hasta generar objetos tridimensionales basados en arte conceptual. En mi rol anterior como modeladora 3D en un estudio de animación, tuve la oportunidad de colaborar con artistas, diseñadores y otros modeladores para desarrollar el proyecto.",
@@ -51,24 +51,6 @@
         "experience_artist-text-2": "Desarrollé el modelo 3D de props (Mid-poly)"
     },
 
-    "ilustracion":{
-        "ilustracion-titulo": "Ilustración",
-        "ilustracion-fox": "Zorro",
-        "ilustracion-wisp": "Espíritu",
-        "ilustracion-yoda": "Yoda bebé",
-        "ilustracion-nymph": "Ninfa",
-        "ilustracion-mischief":"Engaño",
-        "ilustracion-blade": "Cuchilla",
-        "ilustracion-sh4": "Monstruo SH4",
-        "ilustracion-radio": "Chica Radio",
-        "ilustracion-doggy": "Cachorro",
-        "ilustracion-creature": "Criatura",
-        "ilustracion-teeth": "Dientes",
-        "ilustracion-fish": "Pez",
-        "ilustracion-dig": "Excavar",
-        "ilustracion-duality": "DualiDAD"
-    },
-
     "projects":{
         "programming-title":"Programación"
     },
@@ -80,79 +62,7 @@
         "project-title-web": "Portafolio Web"
     },
 
-    "model-3d":{
-        "model-3d-title":"Modelado 3D"
-    },
-
-    "model-3d__area":{
-        "model-3d-potion":"Poción",
-        "model-3d-bahno": "Baño",
-        "model-3d-keys": "Llaves de RCPD",
-        "model-3d-blade": "Espada del cielo",
-        "model-3d-lamp": "Lámpara Seelie",
-        "model-3d-theatre": "Teatro embrujado",
-        "model-3d-wings": "Alas de la libertad",
-        "model-3d-oil": "Estación de aceite",
-        "model-3d-empire": "Empire State",
-        "model-3d-sh": "Entrada de Silent hill",
-        "model-3d-eve": "Estatua Eve"
-    } ,
-
-    "animation":{
-        "animation-title": "Animación 3D",
-        "animation-attacks": "Ataques",
-        "animation-mystery": "Escena de misterio",
-        "animation-wizard": "Animación de maga",
-        "animation-dog": "Perro y pelota"
-    },
-
-    "animation-project":{
-        "animation-project-details": "Detalles",
-        "animation-project-text-lip": "Experimenta una cautivante animación sobre lip sync y mecánica corporal, meticulosamente hecha para traer a la vida cada fotograma.",
-        "animation-project-lip-link1": "Modelado por  Mia Pray [Modelo - Textura], Rijah Kazuo [rigging] & Sagar Arun [Animación - Prueba de Rig]",
-        "animation-project-lip-link2": "Música: INCOMING - MC ORSEN",
-        "animation-project-lip-link3": "Voz de Scaramouche - Genshin Impact",
-
-        "animation-project-title-attacks": "Ataques",
-        "animation-project-text-attacks": "Se puede ver una serie de ataques del personaje Heizou de Genshin Impact.",
-        "animation-project-attacks-link1": "Modelado por Alex Salmar",
-        "animation-project-attacks-link2": "Referencia: Rulaineyu & Heizou [Genshin Impact]",
-        "animation-project-attacks-link3": "Desarrollado en Maya Autodesk",
-
-        "animation-project-title-mystery": "Escena de misterio",
-        "animation-project-text-mystery": "Animación de una chica, un vaquero y un perro investigando un misterio en el bosque.",
-        "animation-project-mystery-link1": "Los modelos y el escenario no son míos",
-        "animation-project-mystery-link2": "El audio es de la película live action Scooby Doo: La Isla Misteriosa",
-        "animation-project-mystery-link3": "Desarrollado en Maya Autodesk",
-
-        "animation-project-text-jd": "Spider-Gwen bailando sobre un escenario un trend de Tik Tok.",
-        "animation-project-jd-link1": "Ningún prop es mío.",
-        "animation-project-jd-link2": "Música por Lady Gaga",
-        "animation-project-jd-link3": "Fue animado en Autodesk Maya y renderizado en Marmoset Toolbag.",
-
-        "animation-project-title-wa": "Animación de maga",
-        "animation-project-text-wa": "Animación de lip sync y mecánica de cuerpo que se muestra en una actuación.",
-        "animation-project-wa-link1": "Modelado por Joona Pääkkönen",
-        "animation-project-wa-link2": "La música y la voz del chico es de la película de E.T. (Across the moon)",
-        "animation-project-wa-link3": "La voz de la chica es de Legacies por Danielle Rose Russell",
-        "animation-project-wa-link4": "Escenario de Creazilla",
-
-        "animation-project-title-dog": "Perro y pelota",
-        "animation-project-text-dog": "Escena de un perro siguiendo una pelota y después hablando con él mismo, o mejor dicho, con su reflejo.",
-        "animation-project-dog-link1": "El modelo del perro fue hecho por Truong CG Artist",
-        "animation-project-dog-link2": "El audio fue tomado de Scooby Doo Misterios S.A.",
-        "animation-project-dog-link3": "El modelo de la habitación fue hecho por mí",
-        "animation-project-dog-link4": "Software usado: Autodesk Maya",
-
-        "animation-project-text-rude": "Bony bailando Rude Boy siguiendo una coreografía del juego Dance Central 2.",
-        "animation-project-rude-link1": "Modelado por Uğur Ulvi Yetişkin",
-        "animation-project-rude-link2": "Música de Rihanna",
-        "animation-project-rude-link3": "Coreografía de Marcos Aguirre / Frenchy Hernandez",
-        "animation-project-rude-link4": "Software usado: Autodesk Maya"
-    },
-
     "footer": {
         "footer_text": "2023 Desarrollado por Cynthia Hernández"
     }
-
 }
