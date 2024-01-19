@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 1024px) {
   .sobre--mi__descripcion{
-    font-size: 14px;
+    font-size: 20px;
   }
 }
- 
+
 @media screen and (max-width: 480px) {
   .boton--cv{
       margin-top: 1%;
-      font-size: 14px;
+      font-size: 16px;
   }
 }

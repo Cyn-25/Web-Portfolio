@@ -11,6 +11,17 @@
     margin-top: 3%;
 }
 
+@media screen and (max-width: 1024px) {
+    .proyecto-portafolio__texto{
+        font-size: 20px;
+        margin: 4% 0;
+    }
+
+    .proyectos__titulo h1{
+        font-size: 40px;
+    }
+}
+
 
 @media screen and (max-width: 480px) {
     .proyecto-portafolio__texto{

@@ -43,6 +43,11 @@ main , footer{
     padding-top: 3%;
 }
 
+footer{
+    background-color: var(--background-footer);
+    margin-top: 5%;
+}
+
 @media screen and (max-width: 1023px) {
     main{
         padding-right: 0;
@@ -54,8 +59,8 @@ main , footer{
         padding-left: 6.5%;
         padding-top: 3%;
     }
-  }
-   
+}
+
 @media screen and (max-width: 1023px) {
     main{
         padding-right: 0;

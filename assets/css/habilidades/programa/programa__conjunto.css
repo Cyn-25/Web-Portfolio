@@ -10,11 +10,18 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .programa__conjunto {
+        width: 31%;
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .programa__conjunto{
-        width: 31%;
+        width: 46%;
         height: 39%;
         margin: 1%;
+        justify-content: center;
     }
 }

@@ -1,13 +1,3 @@
-footer{
-    background-color: var(--background-footer);
-    margin-top: 5%;
-    margin-bottom: -1.6%;
-}
-
-.rodapie{
-    margin-top: -2%;
-}
-
 .rodapie p{
     margin-top: 2%;
     color: #ecebeb;
@@ -59,6 +49,9 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
+    .rodapie__redes {
+        padding: 2% 0;
+    }
 
     .rodapie__redes a{
         font-size: 22px;

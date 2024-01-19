@@ -16,8 +16,8 @@
       width: 100%;
     }
   }
-   
-  @media screen and (max-width: 1023px) {
+
+  @media screen and (max-width: 1024px) {
     .sobre--mi{
         width: 100%;
       }
@@ -28,4 +28,15 @@
         display: flex;
         margin-bottom: 16px;
       }
+
+      .sobre--mi__contenido{
+        padding: 4% 2%;
+      }
+    }
+      
+  @media screen and (max-width: 480px) {
+    .sobre--mi__contenido{
+      padding: 3%;
+    }
   }
+      

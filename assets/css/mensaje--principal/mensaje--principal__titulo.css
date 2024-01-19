@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1024px) {
     .mensaje--principal__titulo, .palabras--color{
-        font-size: 22px;
+        font-size: 52px;
     }
 
     .palabras--color:hover{
@@ -32,11 +32,11 @@
 }
 
 @media screen and (max-device-width:480px) {
-    .mensaje--principal__titulo{
-        font-size: 22px;
+    .mensaje--principal__titulo, .palabras--color{
+        font-size: 36px;
     }
 
     .palabras--color:hover{
-        font-size: 22px;
+        font-size: 36px;
     }
 }

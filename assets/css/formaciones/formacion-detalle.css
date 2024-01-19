@@ -5,7 +5,18 @@
 
 @media screen and (max-width: 1024px) {
     .formacion__nombre{
-        font-size: 14px;
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+
+    .formacion__texto{
+        width: 85%;
+        padding-top: 4%;
+    }
+
+    .formacion__detalle {
+        text-align: center;
+        font-size: 18px;
     }
 }
 

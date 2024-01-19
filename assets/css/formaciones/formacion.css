@@ -12,8 +12,9 @@
 
 @media screen and (max-width: 1024px) {
     .formacion{
-        margin: 5% 0 0;
+        margin: 5% 2% 0;
     }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -21,5 +22,9 @@
         margin: 5% 0px;
         inline-size: fit-content;
         width: 100%;
+    }
+
+    .formaciones{
+        margin-top: 7%;
     }
 }

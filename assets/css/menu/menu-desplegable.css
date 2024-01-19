@@ -11,7 +11,7 @@
     font-size: 14px;
   }
   
- .menu__lista li:hover .menu-desplegable {
+.menu__lista li:hover .menu-desplegable {
     display: block;
   }
   

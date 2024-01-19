@@ -33,11 +33,10 @@
 
 @media screen and (max-width: 1024px) {
     .formacion__imagen{
-        width: 192px;
-        height: 96px;
+        width: 214px;
+        height: 138px;
         margin-left: 5%;
         background-size: 54%;
-
     }
 }
 

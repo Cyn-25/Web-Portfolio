@@ -28,6 +28,7 @@
 @media screen and (max-width: 1024px) {
     .boton--cv{
         color: #ffffff;
+        font-size: 20px;
     }
 
     .boton--cv:hover{
@@ -46,7 +47,6 @@
 
     .boton--cv{
         color: #ffffff;
-        font-size: 14px;
         padding: 10px 20px;
     }
 

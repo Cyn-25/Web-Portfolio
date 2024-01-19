@@ -3,3 +3,11 @@
     margin-top: 3%;
 }
 
+
+@media screen and (max-width: 480px) {
+    .menu__lista {
+        width: 100%;
+        justify-content: center;
+    }
+}
+

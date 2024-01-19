@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 1024px) {
     .botones{
-        margin-top: -10%;
+        margin-top: -5%;
     }
 
     .boton__demo , .boton__repositorio{

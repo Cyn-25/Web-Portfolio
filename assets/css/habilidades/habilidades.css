@@ -7,3 +7,10 @@
     color: var(--fuente-brillante);
 
 }
+
+@media screen and (max-width: 480px) {
+    .habilidades{
+        margin: 3% 0 3% 3%;
+    }
+}
+

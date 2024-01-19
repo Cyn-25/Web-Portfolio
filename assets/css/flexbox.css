@@ -8,27 +8,40 @@
 .menu-nav{
     display: flex; 
 }
- 
+
 .programas__lista, .habilidades__lista{
     display: flex;
     flex-wrap: wrap;
 }
 
-.habilidades__item , .programas__item , .pasatiempos__ite{
+.habilidades__item , .programas__item {
     display: flex;
     margin-left: 0%;
     text-align: left;
+    justify-content: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .habilidades__item, .programas__item{
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .habilidades__item, .programas__item{
     margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     }
 
     .menu-nav{  
         font-size: 11px;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
     }
 }
 

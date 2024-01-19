@@ -1,5 +1,5 @@
 .flags{
-    width: 75px;
+    width: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,4 +17,25 @@
 
 .flags__img{
     display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .flags{
+        width: 135px;
+    }
+    .flags__item:hover{
+        width: 44%;
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .flags{
+        width: 30%;
+    }
+
+    .flags__item:hover{
+        width: 44%;
+        box-shadow: none;
+    }
 }

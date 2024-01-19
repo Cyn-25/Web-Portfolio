@@ -8,12 +8,14 @@
 
 @media screen and (max-width: 1024px) {
     .sobre--mi__titulo{
-        font-size: 22px;
+        font-size: 26px;
+        padding-top: 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     .sobre--mi__titulo{
         font-size: 22px;
+        padding-bottom: 1%;
     }
 }
