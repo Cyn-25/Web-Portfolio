@@ -1,18 +1,17 @@
 .rodapie p{
-    margin-top: 2%;
+    margin: 2% 0 0 0;
     color: #ecebeb;
     text-align: center;
     position: relative;
     font-size: 12px;
     font-weight: 500;
-    margin-top: 3%;
+
 }
 
 .rodapie__redes{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
 }
 #linkedin:hover, #artstation:hover, #github:hover, #behance:hover{
     margin: 0.1%;

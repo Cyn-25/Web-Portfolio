@@ -7,6 +7,7 @@
   flex-direction: column;
   margin-top: 2%;
   text-align: justify;
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 1024px) {
