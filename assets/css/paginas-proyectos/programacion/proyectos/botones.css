@@ -1,5 +1,5 @@
 .boton__demo , .boton__repositorio{
-    background: #692efd;
+    background: #b3334e;
     padding: 15px 25px;
     position: static;
     display: inline-block;
@@ -20,8 +20,8 @@
 
 .boton__demo:hover , .boton__repositorio:hover{
     color: #ffffff;
-    box-shadow: 0 0 5px #692efd, 0 0 25px #692efd, 0 0 50px #692efd;
-    text-shadow: 0 0 7px rgb(134, 112, 255);
+    box-shadow: 0 0 5px #ff7db3, 0 0 20px #ff7db3;
+    text-shadow: 0 0 7px rgb(255, 112, 155);
 }
 
 

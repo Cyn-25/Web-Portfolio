@@ -1,14 +1,14 @@
 :root{
     /*--variable: valor;*/
     --background-page: radial-gradient(at top left, #2d2b4a, #453e79);
-    --background-page-dark: #2d2b4a67;
-    --background-form-dark: #1d1b3067;
-    --background-form-darker:#13102a67;
-    --background-boxes: #453e79;
-    --background-footer: #261b48c5;
-    --background-header: #231b46;
+    --background-page-dark: #4a2b3267;
+    --background-form-dark: #301b1f67;
+    --background-form-darker:#2a101667;
+    --background-boxes: #793e4d;
+    --background-footer: #481b21c5;
+    --background-header: #461b2c;
 
-    --fuente-enlace: #e0bbff;
+    --fuente-enlace: #fff3f7;
     --fuente-color: #fbfbfb;
     --fuente-brillante: #ffffff;
 
@@ -30,7 +30,7 @@ body{
     font-family: var(--raleway);
     color: var(--fuente-color);
     font-size: 16px;
-    background-color: #220b63;
+    background-color: #630b0b;
     opacity: 0.8;
     background-image: radial-gradient(#5358bc97 0.5px, #453e7979 0.5px);
     background-size: 10px 10px;

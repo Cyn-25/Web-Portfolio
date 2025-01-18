@@ -8,7 +8,7 @@
 .palabras--color{
     color: var(--fuente-color);
     transition: 0.4s all ease;
-    text-shadow: 0 0 7px rgb(134, 112, 255), 0 0 15px rgb(149, 130, 255);
+    text-shadow: 0 0 7px rgb(255 155 192), 0 0 15px rgb(255 164 198);
     animation: neon-glow 1s ease-in-out infinite alternate;
     display: inline;
     font-size: 52px;

@@ -17,7 +17,7 @@
     margin: 0.1%;
     width: 61px;
     padding: .1%;
-    box-shadow: 2px 2px 5px rgba(123, 75, 201, 0.5);
+    box-shadow: 2px 2px 5px rgba(255, 178, 191, 0.5);
 }
 
 .rodapie__redes a{
@@ -29,7 +29,7 @@
     text-align: center;
     color: #f1f1f1;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(94, 68, 134, 0.5);
+    box-shadow: 2px 2px 5px rgba(185, 101, 125, 0.5); 
     transition: all .4s ease-in-out;
 }
 

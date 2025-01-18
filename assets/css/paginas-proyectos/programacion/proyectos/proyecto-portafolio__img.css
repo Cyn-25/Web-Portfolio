@@ -1,7 +1,7 @@
 .proyecto-portafolio__img{
     width: 50%;
     height: 50%;
-    box-shadow: 0 0 5px #692efd, 0 0 25px #692efd, 0 0 50px #692efd;
+    box-shadow: 0 0 5px #ff70a5, 0 0 25px #ff72a0, 0 0 40px #ff7ea8;
 }
 
 @media screen and (max-width: 1024px) {
